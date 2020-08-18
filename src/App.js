@@ -7,8 +7,6 @@ import BurgerBuilder from './components/BurgerBuilder/BurgerBuilder';
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
-
       <Layout>
         <BurgerBuilder />
       </Layout>

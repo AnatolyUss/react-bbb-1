@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
-import classes from './Layout.css';
+import classes from './Layout.module.css';
 
 class Layout extends Component {
   constructor(props) {
