@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Auxiliary from '../../hoc/Auxiliary';
+import classes from './Layout.css';
 
 class Layout extends Component {
   constructor(props) {
@@ -12,7 +13,7 @@ class Layout extends Component {
         <div>
           Toolbar, SideDrawer, Backdrop
         </div>
-        <main>{this.props.children}</main>
+        <main className={ classes.Content }>{this.props.children}</main>
       </Auxiliary>
     );
   }
